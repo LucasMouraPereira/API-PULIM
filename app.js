@@ -43,7 +43,7 @@ app.use('/institutes', institutesRoute);
 app.use('/clients', clientsRoute);
 app.use('/visits', visitsRoute);
 
-app.listen(process.env.PORT || 3000, () => {
+app.listen(8080, () => {
     console.log('Servidor esta rodando');
 });
 
